@@ -1,7 +1,6 @@
+package bibliotecaLuciaSanz;
 import java.util.ArrayList;
 import java.util.List;
-
-import bibliotecaLuciaSanz.libro;
 
 public class biblioteca {
 
@@ -11,11 +10,11 @@ public class biblioteca {
         libros = new ArrayList<>();
     }
 
-    public void agregarLibro(libro libro) {
+    public void añadirLibro(libro libro) {
         libros.add(libro);
     }
 
-    public int getNumeroLibros() {
+    public int darNumeroLibros() {
         return libros.size();
     }
 }
